@@ -1,5 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "print_result.h"
+#include "process_data.h"
+#include "read_data.h"
+#include "sorting.h"
+#include "verify_errors.h"
 
 struct team
 {
@@ -14,6 +19,6 @@ struct team
 };
 
 
-int main(int argc, char **argv){
+int main(int argc, char *argv[]){
     return 0;
 }
