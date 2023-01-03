@@ -20,5 +20,8 @@ struct team
 
 
 int main(int argc, char *argv[]){
+    FILE *fin = fopen(argv[1], "r");
+    verify_errors(argc, fin, argv[1], "r");
+    fclose(fin);
     return 0;
 }
